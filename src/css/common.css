@@ -1,0 +1,8 @@
+.title {
+  display: flex;
+  align-self: center;
+  font-size: 46px;
+  color: #333;
+  margin-top: 200px;
+  margin-left: 300px;
+}
