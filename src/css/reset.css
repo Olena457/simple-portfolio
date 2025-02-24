@@ -16,6 +16,7 @@ html {
   --black-color: #040f00;
   --gray-shadow: #6a7e6f;
   --white-color: #fbf9fa;
+  --bright-blue: #00eeff;
 
   --header-bg: linear-gradient(90deg, #dff5a0 0%, #4b7b8b 100%);
   --body-bg-color: linear-gradient(135deg, #dff5a0 0%, #89a7b2 100%) no-repeat;
