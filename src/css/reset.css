@@ -1,17 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+:root {
+  --header-accent-color: #dff5a0;
+  --hover-hover-color: #c4f04a;
+  --main-color: #595959;
+  --title-color: #305d6c;
+  --color-link: #4b7b8b;
+  --black-color: #040f00;
+  --gray-shadow: #6a7e6f;
+  --white-color: #fbf9fa;
 
+  --header-bg: linear-gradient(90deg, #dff5a0 0%, #4b7b8b 100%);
+  --body-bg-color: linear-gradient(135deg, #dff5a0 0%, #89a7b2 100%) no-repeat;
+  --footer-bg: linear-gradient(90deg, #4b7b8b 0%, #dff5a0 100%);
+  --card-bg: radial-gradient(circle, #ffffcc 0%, #dff5a0 50%, #89a7b2 100%);
+  --button-bg: linear-gradient(90deg, #c4f04a 0%, #19292e 100%);
+  --transition: 0.5s ease-in-out;
+}
 body {
   margin: 0;
   padding: 0;
+  background-color: #6a7e6f;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+
   color: var(--header-accent-color);
-  background: var(--body-bg);
+}
+.container {
+  background: var(--body-bg-color);
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+@media (min-windth: 768px) and (max-width: 1199.98px) {
+  .container {
+    padding: 24px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .container {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .container {
+    padding: 40px;
+  }
 }
 
 h1,
