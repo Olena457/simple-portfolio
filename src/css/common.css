@@ -411,12 +411,12 @@
 }
 
 .about-info-container {
-  background-color: var(--gray-shadow);
+  /* background-color: var(--gray-shadow); */
   border-radius: 24px;
   padding: 52px 32px;
   width: 100%;
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
-  border: 1px solid rgba(214, 247, 27, 0.598);
+  border: 1px solid rgba(27, 214, 247, 0.598);
 }
 @media (min-width: 768px) {
   .about-info-container {
@@ -617,7 +617,7 @@
 }
 
 .skills-block-list li {
-  background: var(--header--accent-color);
+  /* background: var(--header--accent-color); */
   padding: 12px;
   color: var(--link-color);
   border-radius: 20px;
@@ -625,7 +625,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(214, 247, 27, 0.598);
+  border: 1px solid var(--bright-blue);
   text-align: center;
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
 }
@@ -644,7 +644,7 @@
   color: var(--title-color);
   text-align: center;
   margin-bottom: 30px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
 }
 
 .projects-wrap {
@@ -680,7 +680,7 @@
 }
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(210, 244, 15, 0.833);
+  /* box-shadow: 0 20px 40px rgba(210, 244, 15, 0.833); */
 }
 
 .project-card.project-image {
@@ -712,7 +712,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  background: var(--gray-shadow);
+  /* background: var(--gray-shadow); */
   text-align: center;
   border-radius: 8px;
 }

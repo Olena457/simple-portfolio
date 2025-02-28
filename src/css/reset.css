@@ -14,7 +14,8 @@ html {
   --title-color: #305d6c;
   --color-link: #4b7b8b;
   --black-color: #040f00;
-  --gray-shadow: #6a7e6f;
+  --gray-shadow: #f3e6e6;
+  /* --gray-shadow: #6a7e6f; */
   --white-color: #fbf9fa;
   --bright-blue: #00eeff;
 
@@ -28,7 +29,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #6a7e6f;
+  background-color: #05057d;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -36,12 +37,14 @@ body {
   color: var(--header-accent-color);
 }
 .container {
-  background: var(--body-bg-color);
+  /* background: var(--body-bg-color); */
   width: 100%;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
+  background-color: #00008b;
+  /* background-color: #2e2e5d; */
 }
 @media (min-windth: 768px) and (max-width: 1199.98px) {
   .container {
