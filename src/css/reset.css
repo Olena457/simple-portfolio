@@ -8,43 +8,37 @@ html {
   box-sizing: inherit;
 }
 :root {
+  --body-bg-color: #abababab;
   --header-accent-color: #dff5a0;
   --hover-hover-color: #c4f04a;
   --main-color: #595959;
-  --title-color: #305d6c;
-  --color-link: #4b7b8b;
+  --title-color: #9e42bd;
+  /* --color-link: #4b7b8b; */
   --black-color: #040f00;
-  --gray-shadow: #f3e6e6;
-  /* --gray-shadow: #6a7e6f; */
+  --gray-shadow: #5a5656e4;
   --white-color: #fbf9fa;
   --bright-blue: #00eeff;
-
-  --header-bg: linear-gradient(90deg, #dff5a0 0%, #4b7b8b 100%);
-  --body-bg-color: linear-gradient(135deg, #dff5a0 0%, #89a7b2 100%) no-repeat;
-  --footer-bg: linear-gradient(90deg, #4b7b8b 0%, #dff5a0 100%);
-  --card-bg: radial-gradient(circle, #ffffcc 0%, #dff5a0 50%, #89a7b2 100%);
-  --button-bg: linear-gradient(90deg, #c4f04a 0%, #19292e 100%);
+  --border-color: 1px solid rgba(214, 247, 27, 0.598);
+  --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%);
+  --card-bg: linear-gradient(to top, #9e42db 0%, #239ee0 100%);
+  /* --button-bg: linear-gradient(90deg, #c4f04a 0%, #19292e 100%); */
   --transition: 0.5s ease-in-out;
 }
 body {
   margin: 0;
   padding: 0;
-  background-color: #05057d;
+  background-color: var(--body-bg-color);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-
   color: var(--header-accent-color);
 }
 .container {
-  /* background: var(--body-bg-color); */
   width: 100%;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
-  background-color: #00008b;
-  /* background-color: #2e2e5d; */
 }
 @media (min-windth: 768px) and (max-width: 1199.98px) {
   .container {
