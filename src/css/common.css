@@ -747,9 +747,9 @@
 .icon-link img:hover,
 .icon-link img:focus {
   border: 0.5px solid var(--bright-blue);
-  box-shadow: 12px 12px 15px var(--bright-blue),
+  /* box-shadow: 12px 12px 15px var(--bright-blue),
     -12px 12px 15px var(--bright-blue), 12px -12px 15px var(--bright-blue),
-    -12px -12px 15px var(--bright-blue);
+    -12px -12px 15px var(--bright-blue); */
 }
 /*  steles detaels _________________________________ */
 .page-header {
@@ -763,27 +763,25 @@
   overflow: hidden;
   font-weight: 700;
   font-family: 'Arial', sans-serif;
-  font-size: 36px;
+  font-size: 34px;
   background-color: transparent;
-
   margin-bottom: 20px;
-  color: var(--white-color);
   line-height: 1.14;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   background-color: transparent;
-  text-shadow: 2px 2px 5px var(--shadow-text);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .span-yellow {
-  color: var(--header--accent-color);
+  color: var(--title-color);
 }
-.span-blue {
+.span-blue-color {
   color: var(--title-color);
 }
 @media (min-width: 768px) {
   .marquee {
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 1.13;
   }
 }
@@ -791,7 +789,7 @@
 @media (min-width: 1200px) {
   .marquee {
     margin-bottom: 10px;
-    font-size: 60px;
+    font-size: 58px;
     line-height: 1.13;
   }
 }
@@ -799,7 +797,7 @@
 @media (min-width: 1440px) and(max-width: 1600px) {
   .marquee {
     margin-bottom: 15px;
-    font-size: 58px;
+    font-size: 60px;
     line-height: 1.1;
   }
 }
@@ -1174,6 +1172,7 @@
 
 .footer-link-quote {
   color: var(--header--accent-color);
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   font-weight: 400;
   padding: 4px;
@@ -1207,14 +1206,6 @@
   }
 }
 
-/* .footer-separator {
-  height: 5px;
-  width: 3px;
-  margin: 0 5px;
-  color: var(--title-color);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-} */
-
 .social {
   display: flex;
   justify-content: center;
@@ -1222,7 +1213,6 @@
   list-style: none;
   padding: 0;
 }
-/* .social-item { */
 .social-link {
   display: flex;
   align-items: center;
