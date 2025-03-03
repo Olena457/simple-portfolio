@@ -22,7 +22,6 @@ html {
   --border-color: 1px solid rgba(214, 247, 27, 0.598);
   --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%);
   --card-bg: linear-gradient(to top, #9e42db 0%, #239ee0 100%);
-  /* --button-bg: linear-gradient(90deg, #c4f04a 0%, #19292e 100%); */
   --transition: 0.5s ease-in-out;
 }
 body {
@@ -34,6 +33,7 @@ body {
   line-height: 1.5;
   color: var(--header-accent-color);
 }
+
 .container {
   width: 100%;
   max-width: 1440px;
