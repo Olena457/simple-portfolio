@@ -550,7 +550,7 @@
   height: calc(100vh - 76px);
   width: 100%;
   top: 76px;
-  /* left: 0; */
+  left: 0;
 }
 
 .skills-title {
@@ -678,7 +678,9 @@
   width: 100%;
   background: var(--card-bg);
   border: var(--border-color);
-
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -690,6 +692,15 @@
   min-height: 220px;
   border-radius: 8px;
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
+}
+/*  image support__________________ */
+.project-image-event-1 {
+  background-image: url('../img/event-1.jpg');
+}
+@supports (background-image: url('../img/event.webp')) {
+  .project-image-event {
+    background-image: url('../img/event.webp');
+  }
 }
 @media (min-width: 768px) {
   .project-card.project-image {
