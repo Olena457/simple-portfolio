@@ -678,8 +678,9 @@
   width: 100%;
   background: var(--card-bg);
   border: var(--border-color);
+  height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -689,33 +690,42 @@
 }
 
 .project-card.project-image {
-  min-height: 220px;
+  min-height: 240px;
   border-radius: 8px;
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
 }
-/*  image support__________________ */
-.project-image-event-1 {
+/*  image supports_______________________________________ */
+.project-image-event {
   background-image: url('../img/event-1.jpg');
+}
+.project-image-lingo {
+  background-image: url('../img/lingo-1.jpg');
 }
 @supports (background-image: url('../img/event.webp')) {
   .project-image-event {
     background-image: url('../img/event.webp');
   }
+  .project-image-lingo {
+    background-image: url('../img/lingo.webp');
+  }
 }
 @media (min-width: 768px) {
   .project-card.project-image {
-    height: 350px;
+    background-position: right;
+    height: 380px;
   }
 }
 
 @media (min-width: 1200px) {
   .project-card.project-image {
-    height: 380px;
+    background-position: center;
+    height: 400px;
   }
 }
 
 @media (min-width: 1440px) and (max-width: 1600px) {
   .project-card.project-image {
+    background-position: center;
     height: 520px;
   }
 }
