@@ -655,8 +655,11 @@
 }
 @media (min-width: 768px) {
   .projects-wrap {
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
+  }
+  .projects-title {
+    font-size: 28px;
   }
 }
 
@@ -664,6 +667,9 @@
   .projects-wrap {
     grid-template-columns: 3fr 1fr;
     gap: 24px;
+  }
+  .projects-title {
+    font-size: 36px;
   }
 }
 @media (min-width: 1440px) and (max-width: 1600px) {
@@ -679,9 +685,7 @@
   background: var(--card-bg);
   border: var(--border-color);
   height: 100%;
-  background-size: cover;
-  background-position: right;
-  background-repeat: no-repeat;
+
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -692,6 +696,9 @@
 .project-card.project-image {
   min-height: 240px;
   border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   box-shadow: 0 10px 20px 6px var(--gray-shadow);
 }
 /*  image supports_______________________________________ */
@@ -701,6 +708,33 @@
 .project-image-lingo {
   background-image: url('../img/lingo-1.jpg');
 }
+.project-image-car {
+  background-image: url('../img/car-1.jpg');
+}
+.project-image-phone {
+  background-image: url('../img/phone-1.jpg');
+}
+.project-image-bitcoin {
+  background-image: url('../img/bitcoin-1.jpg');
+}
+.project-image-movie {
+  background-image: url('../img/movie-1.jpg');
+}
+.project-image-photo {
+  background-image: url('../img/photo-1.jpg');
+}
+.project-image-stydio {
+  background-image: url('../img/stydio-1.jpg');
+}
+.project-image-aqua {
+  background-image: url('../img/aqua-1.jpg');
+}
+.project-image-portfolio {
+  background-image: url('../img/portfolio-1.jpg');
+}
+.project-image-focus {
+  background-image: url('../img/focus-1.jpg');
+}
 @supports (background-image: url('../img/event.webp')) {
   .project-image-event {
     background-image: url('../img/event.webp');
@@ -708,24 +742,48 @@
   .project-image-lingo {
     background-image: url('../img/lingo.webp');
   }
+  .project-image-car {
+    background-image: url('../img/car.webp');
+  }
+  .project-image-phone {
+    background-image: url('../img/phone.webp');
+  }
+  .project-image-bitcoin {
+    background-image: url('../img/bitcoin.webp');
+  }
+  .project-image-movie {
+    background-image: url('../img/movie.webp');
+  }
+  .project-image-photo {
+    background-image: url('../img/photo.webp');
+  }
+  .project-image-stydio {
+    background-image: url('../img/stydio.webp');
+  }
+  .project-image-aqua {
+    background-image: url('../img/aqua.webp');
+  }
+  .project-image-portfolio {
+    background-image: url('../img/portfolio.webp');
+  }
+  .project-image-focus {
+    background-image: url('../img/focus.webp');
+  }
 }
 @media (min-width: 768px) {
   .project-card.project-image {
-    background-position: right;
     height: 380px;
   }
 }
 
 @media (min-width: 1200px) {
   .project-card.project-image {
-    background-position: center;
     height: 400px;
   }
 }
 
 @media (min-width: 1440px) and (max-width: 1600px) {
   .project-card.project-image {
-    background-position: center;
     height: 520px;
   }
 }
@@ -922,13 +980,7 @@
 
 @media (min-width: 1200px) {
   .title {
-    font-size: 42px;
-    margin-bottom: 22px;
-  }
-}
-@media (min-width: 1440px) and(max-width: 1600px) {
-  .title {
-    font-size: 34px;
+    font-size: 36px;
     margin-bottom: 22px;
   }
 }
