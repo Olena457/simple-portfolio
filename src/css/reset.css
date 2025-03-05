@@ -13,15 +13,16 @@ html {
   --hover-hover-color: #c4f04a;
   --main-color: #595959;
   --title-color: #9e42bd;
-  /* --color-link: #4b7b8b; */
   --black-color: #040f00;
   --gray-shadow: rgba(0, 0, 0, 0.31);
-  /* --gray-shadow: #5a5656e4; */
   --white-color: #fbf9fa;
   --bright-blue: #00eeff;
-  --border-color: 1px solid rgba(214, 247, 27, 0.598);
-  --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%);
-  --card-bg: linear-gradient(to top, #9e42db 0%, #239ee0 100%);
+  --border-color: 1px solid #00eeff;
+  /* --border-color: 1px solid rgba(214, 247, 27, 0.598); */
+  --header-bg: linear-gradient(180deg, #9e42db 0%, #3253bc 100%);
+  /* --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%); */
+  --card-bg: linear-gradient(90deg, #3253bc 20%, #9e42db 80%);
+
   --transition: 0.5s ease-in-out;
 }
 body {
