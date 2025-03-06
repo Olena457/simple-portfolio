@@ -8,7 +8,6 @@ html {
   box-sizing: inherit;
 }
 :root {
-  --body-bg-color: #fbf9fa;
   --header-accent-color: #dff5a0;
   --hover-hover-color: #c4f04a;
   --main-color: #595959;
@@ -17,18 +16,19 @@ html {
   --gray-shadow: rgba(0, 0, 0, 0.31);
   --white-color: #fbf9fa;
   --bright-blue: #00eeff;
-  --border-color: 1px solid #00eeff;
+
+  --border-color: 1px solid #e6b8f5;
   /* --border-color: 1px solid rgba(214, 247, 27, 0.598); */
-  --header-bg: linear-gradient(180deg, #9e42db 0%, #3253bc 100%);
+  --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%);
   /* --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%); */
-  --card-bg: linear-gradient(90deg, #3253bc 20%, #9e42db 80%);
+  --card-bg: linear-gradient(90deg, #3253bc 20%, #9e42db 60%);
 
   --transition: 0.5s ease-in-out;
 }
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--body-bg-color);
+  background-color: #bce2f6;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -44,18 +44,18 @@ body {
 }
 @media (min-windth: 768px) and (max-width: 1199.98px) {
   .container {
-    padding: 24px;
+    padding: 10px 24px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .container {
-    padding: 30px;
+    padding: 10px 35px;
   }
 }
 
 @media (min-width: 1440px) and (max-width: 1600px) {
   .container {
-    padding: 40px;
+    padding: 10px 60px;
   }
 }
 

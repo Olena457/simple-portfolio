@@ -22,26 +22,26 @@
   </head>
   <body>
     <div id="#header" class="header-container container">
- <!-- <a href="./index.html" class="header-homepage-link"
+ <a href="./index.html" class="header-homepage-link"
     ><img
       class="header-logo-image"
-      src="./img/logo-yellow.png"
+      src="./icons/logo.svg"
       alt="logo"
-      width="30"
-      height="30"
+      width="80"
+      height="80"
     />
-  </a> -->
+  </a>
       <button class="header-button-menu" type="button" aria-label="toggle-menu">
         <img
           class="header-button-icon-open"
-          src="./img/burger.png"
+          src="./icons/menu.svg"
           alt="burger"
           width="30"
           height="30"
         />
         <img
           class="header-button-icon-close hidden"
-          src="./img/cross.png"
+          src="./icons/close.svg"
           alt="cross"
           width="30"
           height="30"
@@ -99,15 +99,20 @@
         </ul>
       </nav>
     </div>
+
     <section class="hero-section" id="hero">
-      <div class="hero-background">
-        <div class="hero-overlay"></div>
-        <div class="hero-text">
-          <h1 class="title-hero-about">Welcome to My Portfolio</h1>
-          <p class="welcome">Explore my work and experience</p>
-        </div>
-      </div>
-    </section>
+  <picture>
+    <source srcset="../img/baner.webp" type="image/webp">
+    <source srcset="../img/baner-1.jpg" type="image/jpeg">
+    <img class="hero-background" src="../img/baner-1.jpg" alt="baner">
+  </picture>
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <h2 class="title-hero-about">"Continuous Learning for  Excellence in Work"</h2>
+    <!-- <p class="welcome">Explore my work and experience</p> -->
+  </div>
+</section>
+
 
     <section class="about-section" id="about">
       <div class="about-wrapper">
@@ -366,7 +371,7 @@
     <!-- section details_________________________________ -->
      <section class="details-container" id="details">
 
-      <div class="page-container container">
+      <div class="page-container ">
         <h2 class="title">Details</h2>
         <section class="linesection">
           <div class="marquee">
@@ -442,7 +447,7 @@
             rel="noopener no-referrer"
             aria-label="link to telegram"
           >
-            <img src="./img/telegram.png" alt="Telegram" class="social-icon" />
+            <img src="./icons/telegram.svg" alt="Telegram" class="social-icon" />
           </a>
         </li>
 
@@ -454,7 +459,7 @@
             rel="noopener no-referrer"
             aria-label="link to Linkedin"
           >
-            <img src="./img/linkedin.png" alt="LinkedIn" class="social-icon" />
+            <img src="./icons/linkedin.svg" alt="LinkedIn" class="social-icon" />
           </a>
         </li>
       </ul>
