@@ -1,12 +1,12 @@
-html {
+/* html {
   box-sizing: border-box;
-}
+} */
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 :root {
   --header-accent-color: #dff5a0;
   --hover-hover-color: #c4f04a;
