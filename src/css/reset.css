@@ -1,16 +1,6 @@
-/* html {
-  box-sizing: border-box;
-} */
-
-/* *,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
 :root {
   --header-accent-color: #dff5a0;
   --hover-hover-color: #c4f04a;
-  --main-color: #595959;
   --title-color: #9e42bd;
   --black-color: #040f00;
   --gray-shadow: rgba(0, 0, 0, 0.31);
@@ -18,11 +8,8 @@
   --bright-blue: #00eeff;
 
   --border-color: 1px solid #e6b8f5;
-  /* --border-color: 1px solid rgba(214, 247, 27, 0.598); */
   --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%);
-  /* --header-bg: linear-gradient(180deg, #9e42db 0%, #239ee0 100%); */
   --card-bg: linear-gradient(90deg, #3253bc 20%, #9e42db 60%);
-
   --transition: 0.5s ease-in-out;
 }
 body {
